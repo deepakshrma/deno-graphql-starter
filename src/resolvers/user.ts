@@ -3,7 +3,7 @@ import { getUsers } from "../model/database.ts";
 
 const UserResolver = {
   Query: {
-    users: async ({name}: any = {}, context: AppContext) => {
+    users: async ({name}: any = {}, {request, response}: AppContext) => {
       return getUsers(name ? (u: any) => u.name.includes(name) : undefined);
     },
   },

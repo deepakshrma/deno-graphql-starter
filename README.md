@@ -18,7 +18,6 @@ GraphQL is already known for its good things. GraphQL helps to build super scala
 
 In this article, I will explain how you can easily integrate the GraphQL nodejs module with Deno lang. This is a very basic implementation. However, Still, there is a lot of scope for improvements. This is not the end. This is just beginning.
 
-
 ## Prerequisite
 
 - Deno [installed](https://deno.land/#installation) on system
