@@ -1,0 +1,10 @@
+allow:
+  - net
+  - read
+  - env
+
+scripts:
+  start: 
+    cmd: deno run src/server.ts
+  test: "echo 'No Test Found'"
+  build: deno compile --unstable --allow-read --allow-net src/server.ts
